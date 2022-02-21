@@ -30,6 +30,6 @@ class Netaggr < Formula
   end
 
   def install
-    bin.install Dir.glob("netaggr-*") => "netaggr"
+    bin.install Dir["netaggr-*"].first => "netaggr"
   end
 end
