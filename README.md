@@ -1,4 +1,8 @@
-# ebarkie Homebrew tap
+# ebarkie Homebrew Tap
+
+Formula                                       | Description
+----------------------------------------------|------------------------------
+[netaggr](https://github.com/ebarkie/netaggr) | Network aggregator/summarizer
 
 ## How do I install these formulae?
 
