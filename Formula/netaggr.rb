@@ -5,20 +5,20 @@
 class Netaggr < Formula
   desc "Network aggregator/summarizer"
   homepage "https://github.com/ebarkie/netaggr"
-  version "1.3.8"
+  version "1.3.9"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/ebarkie/netaggr/releases/download/v1.3.8/netaggr_Darwin_x86_64.tar.gz"
-      sha256 "6164860608ad02fb55af932589e87b7c5c92687540375569f36b53c1b4751e0c"
+      url "https://github.com/ebarkie/netaggr/releases/download/v1.3.9/netaggr_Darwin_x86_64.tar.gz"
+      sha256 "5c2aed92f17c2397fc27b95fcee4c41e8a64b4b4b5e99e46345a94ebca02b014"
 
       def install
         bin.install "netaggr"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/ebarkie/netaggr/releases/download/v1.3.8/netaggr_Darwin_arm64.tar.gz"
-      sha256 "4104ce90ea6156601bbd47e8f019eb3fee75be4164c091ef0b4ff9594870192b"
+      url "https://github.com/ebarkie/netaggr/releases/download/v1.3.9/netaggr_Darwin_arm64.tar.gz"
+      sha256 "8a23b40c39c7590c88d5b9903fcbdb5663fa537f98b0f808ec93600ba0d93953"
 
       def install
         bin.install "netaggr"
@@ -29,8 +29,8 @@ class Netaggr < Formula
   on_linux do
     if Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ebarkie/netaggr/releases/download/v1.3.8/netaggr_Linux_x86_64.tar.gz"
-        sha256 "76497f8de4f6642bc08d00d0f74e5cca94cf887d75921370b0b106d7d75d62da"
+        url "https://github.com/ebarkie/netaggr/releases/download/v1.3.9/netaggr_Linux_x86_64.tar.gz"
+        sha256 "9750ee072512e9bbec3d9a6ed87cfe3202b66e9a8e29f25b1ead1126d7183849"
 
         def install
           bin.install "netaggr"
@@ -39,8 +39,8 @@ class Netaggr < Formula
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ebarkie/netaggr/releases/download/v1.3.8/netaggr_Linux_arm64.tar.gz"
-        sha256 "1ec36740950d1744df6c1fe8913745be4df1cc0a04b4f2ce3a9f938f2d58fc4c"
+        url "https://github.com/ebarkie/netaggr/releases/download/v1.3.9/netaggr_Linux_arm64.tar.gz"
+        sha256 "3b4fc03c26e3e805ba94b39e7a75ccb0e1766aa434e535bda48c2edc357d9f51"
 
         def install
           bin.install "netaggr"
